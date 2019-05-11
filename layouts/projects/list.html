@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+<br>
+{{ range .Pages }}<p>
+<p>
+<!-- {{ if (not (isset .Params "external_link")) }} -->
+<!--     <i data-feather="zoom-in"></i> <a class="font-125" href="{{ .Permalink }}">{{ .Title }}</a> -->
+<!-- {{ else }} -->
+<!--     <i data-feather="external-link"></i> <a class="font-125" href="{{ .Params.external_link }}">{{ .Title }}</a> -->
+<!-- {{ end }} -->
+<i data-feather="zoom-in"></i> <a class="font-125" href="{{ .Permalink }}">{{ .Title }}</a>
+    <br>
+{{ partial "projects.html" . }}
+</p>
+
+{{ end }}
+
+{{ end }}
+
+
+
+

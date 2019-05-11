@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+<br>
+{{ range .Pages.ByPublishDate.Reverse }}
+{{ $dateTime := .PublishDate.Format "2006-01-02" }} {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }} 
+<p>
+<a href="{{ .Permalink }}"><i data-feather="zoom-in"></i></a> ( {{ .PublishDate.Format $dateFormat }} ) <a class="font-125" href="{{ .Permalink }}">{{ .Title }}</a>
+</p>
+{{ end }}
+
+{{ end }}
+
+

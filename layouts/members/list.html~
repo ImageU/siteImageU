@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+<br>
+{{ range .Pages.ByPublishDate.Reverse }}
+<p>
+  <div class="row">
+    <div class="col-sm-3">
+      <img alt="profile-picture" class="img-responsive img-circle user-picture center-block" src="{{ .Params.Picture }}">
+    </div>
+    <div class="col-sm-6">
+      <div class="content">
+	{{ .Params.Name }} ({{ .Params.role }})
+      </div>
+    </div>
+  </div>
+  
+{{ end }}
+
+	
+{{ end }}
+
+

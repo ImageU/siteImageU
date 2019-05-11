@@ -1,3 +1,5 @@
 # siteImageU
 
-ImageU webpage based on Hugo
+[ImageU webpage][ImageU] based on Hugo
+
+[ImageU]: https://imageu.github.io/
