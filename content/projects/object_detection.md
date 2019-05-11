@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = 2018-10-07
+date = 2019-05-10
 
 weight = 2
 
@@ -14,11 +14,27 @@ summary = "Modern deep learning techniques applied on object detection"
 image_preview = ""
 
 # Tags: can be used for filtering projects
-tags = ["Obejct detection", "deep-learning"]
+tags = ["Object detection", "deep-learning"]
 +++
 
 
-QR code detection in natural images
-- Symbol detection in grafics
+<p>
+ <br> 
+</p>
 
-external_link = "https://github.com/ImageU/faster-rcnn-graphics"
+#### *QR code detection in natural images*
+
+See *An Evaluation of Deep Learning Techniques for QR Code Detection* (by L. Blanger, N.S.T. Hirata, to appear in ICIP2019). Source code is available in our [Data+Code page][DataCode]. In brief we will release the annotated dataset used to evaluate some deep network models. We also compare the performance of deep models to the performance of an earlier model based on the Viola-Jones object detection framework (code [FastQR][FASTQR])
+
+<br>
+#### *Symbol detection in graphics*
+
+Detecting symbols in handwritten graphics is challenging due to the variations of handwriting but also the variety and diveristy of symbols types. An evaluation of Faster R-CNN for detecting symbols in handwritten mathematical expressions and flowcharts is described in *Symbol detection in online handwritten graphics using Faster R-CNN* (by F.D. Julca-Aguilar, N.S.T. Hirata, DAS2018). Source code is available in our [Data+Code page][DataCode]. 
+
+
+[DAS2018]: https://github.com/ImageU/faster-rcnn-graphics
+
+[FASTQR]: https://sourceforge.net/projects/fastqr/
+
+[DataCode]: /data+code/
+

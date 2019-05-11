@@ -32,4 +32,3 @@ tags = ["QR","Object detection"]
 [QRdataset]: https://github.com/ImageU/faster-rcnn-graphics
 [ICIP2019]: https://github.com/Leonardo-Blanger/subparts_ppn_keras
 [DAS2018]: https://github.com/ImageU/faster-rcnn-graphics
-[FASTQR]: https://sourceforge.net/projects/fastqr/

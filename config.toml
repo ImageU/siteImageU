@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://imageu.github.io/"
 languageCode = "en-us"
 title = "ImageU (Image Understaning)"
 theme = "vanilla-bootstrap-hugo-theme"
