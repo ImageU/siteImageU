@@ -14,15 +14,16 @@ summary = "Document image analysis require local and global structural analysis"
 image_preview = ""
 
 # Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["Documents"]
 
 # Does the project detail page use math formatting?
 math = false
-
 +++
 
 ### Page segmentation
 
+Coming up soon
+
 ### Comics image processing
 
+Coming up soon

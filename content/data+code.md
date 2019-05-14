@@ -3,14 +3,17 @@
 date = 2019-05-11
 
 # Page title
-title = "ImageU data, code, and more"
+title = "Data+Code"  #ImageU data, code, and more"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["QR","Object detection"]
+
+type = "static"
 +++
 
-<br/><br/>
+<br/>
+Here you will find pointers to the codes and datasets.
 
 ---
 
@@ -18,7 +21,7 @@ tags = ["QR","Object detection"]
 (by L. Blanger, N.S.T. Hirata, ICIP2019)
 
   * [Code][ICIP2019]
-  * Dataset
+  * Dataset ([Download instruction)][QRdataset]
 
 ---
 
@@ -29,6 +32,6 @@ tags = ["QR","Object detection"]
 
 ---
 
-[QRdataset]: https://github.com/ImageU/faster-rcnn-graphics
+[QRdataset]: https://github.com/ImageU/QR_codes_dataset
 [ICIP2019]: https://github.com/Leonardo-Blanger/subparts_ppn_keras
 [DAS2018]: https://github.com/ImageU/faster-rcnn-graphics
