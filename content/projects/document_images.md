@@ -20,10 +20,20 @@ tags = ["Documents"]
 math = false
 +++
 
+&nbsp;
+---
+### Skeletal similarity for binarization evaluation
+
+A study of a metric based on skeletal similarity for evaluating handwritten document image binarization. We show that skeletal similarity helps to better assess structural information preservation and thus it can be used in combination with pixel based evaluation metrics for a richer evaluation.
+
+**Paper**: *Skeletal similarity based structural performance evaluation for document binarization* (Augusto C. M. Silva, Xiaoyi Jiang, Nina Hirata, ICFHR 2020 - to appear)
+
+---
 ### Page segmentation
 
 Coming up soon
 
+---
 ### Comics image processing
 
 Coming up soon

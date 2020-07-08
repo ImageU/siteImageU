@@ -20,14 +20,14 @@ theme = "vanilla-bootstrap-hugo-theme"
 # The value of pre is the icon name
 [menu]
   [[menu.nav]]
-    name = "Home"
+    name = "ImageU"
     pre = "home"
     url = "/"
     weight = 1
   [[menu.nav]]
-    name = "News"
+    name = "Up"
     pre = "coffee"
-    url = "/news/"
+    url = "/up/"
     weight = 2
   [[menu.nav]]
     name = "Projects"
